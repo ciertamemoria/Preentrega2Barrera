@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(250, 249, 246);
+
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+header {
+    font-family: "Roboto";
+    font-weight: 500;
+
+}
+
+.link-block a {
+    display: none;
+}
+
+#nav {
+    color: black;
+    width: 100%;
+    padding: 1em;
+    text-align: right;
+    
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li a {
+    color: rgb(20, 20, 20);
+
+}
+
+.box-1 {
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.box-2 {
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    margin-top: auto;
+
+}
+
+.bioimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 15%;
+}
+
+form {
+    font-family: "Roboto";
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    margin-top: auto;
+
+}
+
+iframe {
+    margin: auto;
+    margin-top: auto;
+    margin-left: 50px;
+}
+
+.box-obra {
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+
+}
+
+.obrabox1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 15%;
+
+}
