@@ -34,6 +34,12 @@ header {
     display: none;
 }
 
+.logo {
+
+    justify-content: left;
+    position: absolute;
+
+}
 #nav {
     color: black;
     width: 100%;
@@ -41,6 +47,7 @@ header {
     text-align: right;
     
 }
+
 
 #nav ul {
     margin: 0;
@@ -58,6 +65,7 @@ header {
 
 }
 
+
 .box-1 {
     font-family: "Roboto";
     font-weight: 300;
@@ -72,6 +80,7 @@ header {
     width: 50%;
     margin: auto;
     margin-top: auto;
+    display: flex;
 
 }
 
@@ -95,7 +104,7 @@ form {
 iframe {
     margin: auto;
     margin-top: auto;
-    margin-left: 50px;
+   
 }
 
 .box-obra {
@@ -112,7 +121,59 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1em;
+}
+
+.containerbox {
+    height: 315px;
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+
+
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 97% 3%;
+    padding: auto;
+    margin: 0 auto;
+    background-color: rgb(250, 249, 246);
+
+}
+
+.artwork {
+
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+ .artwork-text {
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: auto;
-    width: 15%;
+    margin-bottom: auto;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    
 
 }
