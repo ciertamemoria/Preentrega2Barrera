@@ -1,0 +1,22 @@
+body {
+  font-size: 15px;
+}
+
+#nav {
+  color: black;
+  width: 100%;
+  padding: 1em;
+  text-align: right;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+#nav ul li {
+  display: inline-block;
+}
+#nav ul li a {
+  color: rgb(20, 20, 20);
+}/*# sourceMappingURL=styles.css.map */
