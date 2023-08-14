@@ -30,6 +30,26 @@ header {
 
 }
 
+#nav {
+    color: black;
+    width: 100%;
+    padding: 1em;
+    text-align: right;
+  }
+  #nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  #nav ul li {
+    display: inline-block;
+  }
+  #nav ul li a {
+    color: rgb(20, 20, 20);
+    
+  }
+  
 .link-block a {
     display: none;
 }
@@ -40,31 +60,6 @@ header {
     position: absolute;
 
 }
-#nav {
-    color: black;
-    width: 100%;
-    padding: 1em;
-    text-align: right;
-    
-}
-
-
-#nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-}
-
-#nav ul li {
-    display: inline-block;
-}
-
-#nav ul li a {
-    color: rgb(20, 20, 20);
-
-}
-
 
 .box-1 {
     font-family: "Roboto";
